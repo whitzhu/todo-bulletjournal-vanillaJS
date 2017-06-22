@@ -41,9 +41,9 @@ npm start
 
 ## Built With
 
-* [HTML5](https://facebook.github.io/react/) - HTML
-* [CSS3](http://sass-lang.com/) - Styling
-* [JS](http://sass-lang.com/) - JavaScript
+* [HTML5](https://www.w3.org/TR/html5/) - Front end markup language
+* [CSS3](http://www.css3.info/) - Styling
+* [JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Scripting language
 * [Express](https://expressjs.com/) - Server Framework
 * [Node](https://nodejs.org/) - Server
 

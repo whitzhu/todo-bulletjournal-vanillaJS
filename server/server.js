@@ -3,6 +3,8 @@ const app = express();
 
 app.use(express.static('public'));
 
-app.listen(3000, () => {
-  console.log('Bullet Journal app listenting on port 3000!');
+const port = process.env.PORT || 3000;
+
+app.listen(port, () => {
+  console.log(`Bullet Journal app listenting on port ${port}!`);
 })

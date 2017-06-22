@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Bullet Journal</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <div class="main">
+    <h1 class="title">Bullet Journal</h1>
+    <div class="input-container">
+      <input id="input" type="text" placeholder="Write your task here" />
+      <button id="add-task"> + </button>
+    </div>
+    <div class="options-container">
+      <div id="event-type">
+        <span id="task" data-type="task" class="btn active">Task</span>
+        <span id="event" data-type="event" class="btn">Event</span>
+      </div>
+      <!-- <div class="filter">
+        <span id="all" data-filter="all" class="btn">All</span>
+        <span id="active" data-filter="active" class="btn">Active</span>
+        <span id="completed" data-filter="completed"  class="btn">Completed</span>
+      </div> -->
+    </div>
+    <div class="list-container">
+      <ul id="list">
+      </ul>
+    </div>  
+    <!-- <span id="remove-complete-btn">Remove Complete</span> -->
+  </div>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

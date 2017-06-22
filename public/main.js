@@ -5,9 +5,11 @@ document.getElementById('list').addEventListener('click', toggleComplete);
 
 function addTask() {
   checkEventType();
-  let inputNode = document.getElementById('input');
+  const inputNode = document.getElementById('input');
+  const inputValue = inputNode.value;
+  if (inputValue.length < 1) return;
   const list = document.getElementById('list');
-  const taskNode = createTaskNode(inputNode.value);
+  const taskNode = createTaskNode(inputValue);
   inputNode.value = '';
   list.appendChild(taskNode);
 }
